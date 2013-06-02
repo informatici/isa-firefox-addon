@@ -1,0 +1,12 @@
+/* This is just an example. You shouldn't do this. */
+/*menuitem#mnu_isf_isa_addon {
+  color: red !important;
+}*/
+
+#ISAIconImage[on="1"] {
+	list-style-image: url("chrome://isf_isa_addon/skin/icon16on.png");
+}
+
+#ISAIconImage[on="0"] {
+	list-style-image: url("chrome://isf_isa_addon/skin/icon16off.png");
+}

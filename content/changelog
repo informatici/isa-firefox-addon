@@ -1,0 +1,27 @@
+1.0
+mini changelog:
+
+    - implementata la scrittura "colpocolpo" cioè ad ogni click sulla lettera
+    - fatta un po' di pulizia di codice e CSS inutilizzati
+    - ristrutturata la fase di aggiornamento delle textarea, degli input type (ora
+    intercetta anche i campi password)
+    - c'è un appesantimento di firefox se viene usata l'estensione su Facebook, 
+    ma perchè l'interfaccia di Facebook è piena di textarea/input per commenti 
+    status e cazzi vari (bisognerebbe indagare e decidere come e se risolvere)
+    - aggiunto bottone "svuota" che elimina il contenuto precedentemente presente 
+    all'interno della textarea/input di partenza. utile in caso di scritte già 
+    presenti nel campo come suggerimento.
+    - aggiunto bottone "chiudi e invia" che emula la pressione del tasto "invio" 
+    utile per gli aggiornamenti di textarea/input che generano ulteriori eventi (commenti su FB, ecc..)
+
+cose da fare ancora:
+
+    - unificazione del codice (permangono ancora pezzi di classi derivanti dalle 
+    due estensioni utilizzate)
+    - miglioramenti vari
+    - ora funge anche su FB, ma solo al primo caricamento della pagina e se la 
+    pagina viene ricaricata da url o con il refresh. se navighi nei contenuti di 
+    facebook (ad esempio usando "home" o profilo, ecc... ) nella nuova schermata 
+    non carica il bottoncino ISA perchè l'update ajax fb-style non fa scattare 
+    l'evento che fa il parsing del dom e l'aggiunta del bottoncino (si aggiusta 
+    e non dovrebbe richiedere molto sforzo, ma non ho ancora visto come fare)

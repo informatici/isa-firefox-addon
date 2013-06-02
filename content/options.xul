@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://isf_isa_addon/locale/options.dtd">
+
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"  title="&title.label;" xmlns:html="http://www.w3.org/1999/xhtml">
+
+<hbox align="center" style="background-color:white;">
+<image align="center" src="chrome://isf_isa_addon/skin/isf_logo.png" />
+<description flex="1">ISA Firefox Add-on powered by </description>
+  <label class="text-link" value="ISF"
+  onclick="var win = Components.classes['@mozilla.org/appshell/window-mediator;1']
+      .getService(Components.interfaces.nsIWindowMediator)
+      .getMostRecentWindow('navigator:browser');
+    win.openUILinkIn('http://www.informaticisenzafrontiere.org', 'tab');close();"/>
+</hbox>
+
+</window>

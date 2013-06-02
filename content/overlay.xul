@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://isf_isa_addon/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://isf_isa_addon/locale/overlay.dtd">
+<overlay id="isf_isa_addon-overlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="chrome://isf_isa_addon/content/ff_isa_addon.js"/>
+  <script type="application/x-javascript"><![CDATA[
+		var IsaOverlay = {};
+		IsaOverlay.FAddon = new FfIsaAddon();
+                ]]></script>
+	<statusbar id="status-bar">
+		<statusbarpanel id="ISAStatusBarIcon" onclick="IsaOverlay.FAddon.eventClickIcon(event);">
+			<image id="ISAIconImage"/>
+		</statusbarpanel>
+	</statusbar>
+</overlay>

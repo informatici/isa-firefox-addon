@@ -1,0 +1,218 @@
+/* MAIN */
+div.ff_isa_div div {
+    text-align: center !important;
+    text-indent: 0ex !important;
+}
+div.ff_isa_div_keyboard_inner {
+    z-index: 999999;
+    position: fixed;
+    width: 800px;
+    border: solid 3px #707070;
+    vertical-align: middle !important;
+    background-color: #004062; 
+    bottom: 0px;
+    margin: 0ex  !important;
+    font-size: 12px !important;
+    font-family: Arial, Verdana, Sans-Serif !important;
+}
+
+div.ff_isa_keyboard {
+	float:left;
+	width:98%;
+	height:100%;
+	margin:1% 1% 1% 1% !important;
+}
+
+/* KEYBOARD */
+div.ff_isa_row {
+	float:left;
+	width:100%;
+	height:20%;
+	margin:0 0 0.5% 0 !important;
+}
+
+div.ff_isa_button_browse,
+div.ff_isa_button_half,
+div.ff_isa_button_quarter,
+div.ff_isa_button_backspace,
+div.ff_isa_button_backspaceword,
+div.ff_isa_button_backspaceall,
+div.ff_isa_button_enter,
+div.ff_isa_button_space,
+div.ff_isa_button_close,
+div.ff_isa_button_tts,
+div.ff_isa_button_send {
+	float:left;
+	display:block;
+	height:95%;
+	margin:0 0.2% 0 0.2% !important;
+	border:1px solid #005a86;
+	border-radius:6px;
+	background-position:center center;
+}
+
+input.ff_isa_button {
+	display: block;
+   	float: left;
+	width: 30.3%;
+	height:100%;
+	margin:0.1% 0.4% 0 0.4% !important;
+	background-color: #033046;
+	background-position:center center;
+	border:1px solid #005a86;
+	border-radius:6px;
+	font:normal 140% Arial,Helvetica,sans-serif;
+        text-align:center !important;
+	line-height:140%;
+	color:#bfe7f9;
+	cursor:url(chrome://isf_isa_addon/skin/cursors/cur117.cur), progress !important;
+}
+/* INIZIO SPEECHBOARD BASE */
+
+div.ff_isa_button_full {
+	display:block;
+	float:left;
+	width:8.3%;
+	height:100%;
+	margin:0.1% 0.4% 0 0.4% !important;
+	background-color:#033046;
+	background-position:center center;
+	border:1px solid #005a86;
+	border-radius:6px;
+}
+
+div.ff_isa_button_full a {
+	float:left;
+	width:100%;
+	height:100%;
+	font:normal 300% Arial,Helvetica,sans-serif;
+	text-align:center;
+	line-height:150%;
+	color:#bfe7f9;
+	cursor:url(chrome://isf_isa_addon/skin/cursors/cur117.cur), progress !important;
+}
+
+/* FINE SPEECHBOARD BASE */
+
+div.ff_isa_button_half,
+div.ff_isa_button_quarter {
+	width:6.8%;
+	background-color:#033046;
+}
+
+div.ff_isa_button_half 		{background-image:url(chrome://isf_isa_addon/skin/isa_button_half.png);}
+div.ff_isa_button_quarter 	{background-image:url(chrome://isf_isa_addon/skin/isa_button_quarter.png);}
+
+div.ff_isa_button_browse,
+div.ff_isa_button_enter,
+div.ff_isa_button_backspace,
+div.ff_isa_button_backspaceword,
+div.ff_isa_button_close,
+div.ff_isa_button_backspaceall,
+div.ff_isa_button_tts,
+div.ff_isa_button_send {
+	width:9%;
+	background-color:#b5b5b5;
+}
+
+div.ff_isa_button_space {
+	width:50%;
+	background-color:#033046;
+}
+
+div.ff_isa_button_close a,
+div.ff_isa_button_browse a,
+div.ff_isa_button_half a,
+div.ff_isa_button_quarter a,
+div.ff_isa_button_backspace a,
+div.ff_isa_button_backspaceword a,
+div.ff_isa_button_backspaceall a,
+div.ff_isa_button_enter a,
+div.ff_isa_button_space a,
+div.ff_isa_button_tts a,
+div.ff_isa_button_send a {
+	float:left;
+	width:100%;
+	height:48%;
+	color:#bfe7f9 !important;
+	font:normal 140% Arial,Helvetica,sans-serif;
+	text-align:center !important;
+	line-height:140%;
+	cursor:url(chrome://isf_isa_addon/skin/cursors/cur117.cur), progress !important;
+}
+
+div.ff_isa_button_browse a,
+div.ff_isa_button_close a,
+div.ff_isa_button_backspace a,
+div.ff_isa_button_backspaceword a,
+div.ff_isa_button_backspaceall a,
+div.ff_isa_button_enter a,
+div.ff_isa_button_tts a,
+div.ff_isa_button_send a,
+div.ff_isa_button_space a {
+	height:100%;
+	line-height:300%;
+	color:#bfe7f9 !important;
+	background-position:center center;
+}
+
+div.ff_isa_button_close a       {background-image:url(chrome://isf_isa_addon/skin/isa_close.png);}
+div.ff_isa_button_browse a       {background-image:url(chrome://isf_isa_addon/skin/isa_browse.png);}
+div.ff_isa_button_backspace a       {background-image:url(chrome://isf_isa_addon/skin/isa_backspace.png);}
+div.ff_isa_button_backspaceword a   {background-image:url(chrome://isf_isa_addon/skin/isa_backspaceword.png);}
+div.ff_isa_button_backspaceall a    {background-image:url(chrome://isf_isa_addon/skin/isa_backspaceall.png);background-size: 120% 150%}
+div.ff_isa_button_enter a           {background-image:url(chrome://isf_isa_addon/skin/isa_enter.png);}
+div.ff_isa_button_tts a             {background-image:url(chrome://isf_isa_addon/skin/isa_tts.png);}
+
+div.ff_isa_button_quarter a.uppercaseleft,
+div.ff_isa_button_quarter a.uppercaseright,
+div.ff_isa_button_quarter a.lowercaseleft,
+div.ff_isa_button_quarter a.lowercaseright {
+	width:50%;
+}
+
+/* HOVER EFFECT */
+div.ff_isa_button_close a:hover,
+div.ff_isa_button_browse a:hover,
+div.ff_isa_button_full a:hover,
+div.ff_isa_button_half a:hover,
+div.ff_isa_button_quarter a:hover,
+div.ff_isa_button_backspace a:hover,
+div.ff_isa_button_backspaceword a:hover,
+div.ff_isa_button_backspaceall a:hover,
+div.ff_isa_button_enter a:hover,
+div.ff_isa_button_space a:hover,
+div.ff_isa_button_tts a:hover,
+div.ff_isa_button_send a:hover,
+div.ff_isa_words_row a.isa_word:hover,
+div.ff_isa_images_row a.isa_word:hover {
+	color:#002c38;
+	background-color:#00cdee;
+	font-weight:bold;
+	border-radius:5px;
+}
+
+div.ff_isa_button_close a:active,
+div.ff_isa_button_browse a:active,
+div.ff_isa_button_full a:active,
+div.ff_isa_button_half a:active,
+div.ff_isa_button_quarter a:active,
+div.ff_isa_button_backspace a:active,
+div.ff_isa_button_backspaceword a:active,
+div.ff_isa_button_backspaceall a:active,
+div.ff_isa_button_enter a:active,
+div.ff_isa_button_space a:active,
+div.ff_isa_button_tts a:active,
+div.ff_isa_button_send a:active,
+div.ff_isa_words_row a.isa_word:active,
+div.ff_isa_images_row a.isa_word:active {
+	color:#ffffff;
+	background-color:#FF6215;
+	font-weight:bold;
+	border-radius:5px;
+}
+
+div.ff_isa_spacer_1 {float:left; width:4%; height:100%;}
+div.ff_isa_spacer_2 {float:left; width:6%; height:100%;}
+div.ff_isa_spacer_3 {float:left; width:1%; height:100%;}
+div.ff_isa_spacer_4 {float:left; width:8%; height:100%;}
